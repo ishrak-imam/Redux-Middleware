@@ -24,7 +24,7 @@ export default class Pager extends PureComponent {
   _renderGradient = () => {
     return (
       <LinearGradient
-        colors={['rgba(0,0,0,1)', 'rgba(0,0,0,0.4)', 'transparent', 'transparent']}
+        colors={['rgba(0,0,0,1)', 'transparent']}
         style={ss.gradient}
       />
     )

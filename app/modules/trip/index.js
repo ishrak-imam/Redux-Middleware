@@ -36,7 +36,7 @@ export default class TripScreen extends Component {
 
         {this._renderNavigationIcon()}
 
-        <Pager style={{ height: 250 }} minimap applyGradient>
+        <Pager style={{ height: 250 }} minimap applyGradient autoplay>
           <ImageCache uri={'https://picsum.photos/500/300?image=1081'} style={ss.image} />
           <ImageCache uri={'https://picsum.photos/500/300?image=1076'} style={ss.image} />
           <ImageCache uri={'https://picsum.photos/500/300?image=1068'} style={ss.image} />
